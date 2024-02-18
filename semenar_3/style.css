@@ -96,13 +96,13 @@ main .text__rocket .img img {
     width: 100%;
 }
 .logo{
-    width: 1266px;
+    width: 1146px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: stretch;
-    justify-content: space-around;
-    gap: 22px;
+    justify-content: space-between;
+    align-content: center
 }
 .logo img{
     padding-top: 80px;
