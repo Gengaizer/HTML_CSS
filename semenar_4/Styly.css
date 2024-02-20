@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header {
+    
+    padding-top: 10px;
+    margin: 0 auto;
+  
+ 
+
+}
+
+.center {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+
+}
+
+header .menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+
+}
+header .menu .menu__container .menu_link{
+    padding: 10px;
+}
+
+header .menu .logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+}
+header .menu .logo .text{
+    font-size: 30px;
+    font-weight: bolder;
+}
+header .menu .logo .text1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #f25822;
+}
+
+header .menu .menu__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+ 
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header .menu__container a {
+    display: flex;
+    flex-wrap: wrap;
+
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+main .general {
+
+    flex-direction: row;
+    gap: 50px;
+}
+
+main .general .general_text h1 {
+    font-size: 60px;
+    width: 522px;
+}
+
+main .general .general_text h5 {
+    font-size: 20px;
+    width: 466px;
+    color: gray;
+}
+
+main .general button {
+    color: white;
+    font-size: 13px;
+    font-weight: 600px;
+    border-radius: 30px;
+    background: #f25822;
+    padding: 16px 32px;
+    margin-top: 15px;
+    border: 0;
+    margin-right: 16px;
+
+}
+
+main .general .button {
+    display: flex;
+    gap: 30px;
+}
+
+main .company_logo {
+    display: flex;
+    padding-top: 200px;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
