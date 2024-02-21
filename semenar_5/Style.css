@@ -1,0 +1,89 @@
+.center {
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px);
+}
+
+header .head {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 61px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+header .head .box h1{
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+header .head .box h5{
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+
+header .head .box p{
+    width: 310px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: gray;
+}
+body{
+    background-color: #fafafa;
+}
+main .main_top{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+main .main_top h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 100px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+main .main_top h5{
+    font-size: 16px;
+    color: grey;
+    width: 740px;
+    text-align: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+main .service .info button{
+    color: white;
+    font-size: 13px;
+    font-weight: 600px;
+    border-radius: 30px;
+    background: #f25822;
+    padding: 16px 32px;
+    margin-top: 15px;
+    border: 0;
+    margin-right: 16px;
+}
+main .service{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main .service .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .service .info h1{
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+main .service .info h5{
+    font-family: 'Gilroy-Regular', sans-serif;
+    width: 310px;
+    text-align: center ;
+    font-size: 16px;
+    color: grey;
+}
+/* 
+font-family: 'Gilroy-Bold', sans-serif;
+font-family: 'Gilroy-Heavy', sans-serif;
+font-family: 'Gilroy-Light', sans-serif;
+font-family: 'Gilroy-Medium', sans-serif;
+font-family: 'Gilroy-Regular', sans-serif;
+*/
