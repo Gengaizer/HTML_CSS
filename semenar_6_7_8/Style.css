@@ -1,0 +1,304 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.center {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+header {
+   
+    height: 75px;
+    background-color: #222222;
+}
+.header .header_menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+.header .header_menu .logo_header_menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 42px;
+    margin-left: 231px;
+    
+}
+.header .header_menu .menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 33px;
+    align-content: center;
+    margin-right: 231px;
+
+    
+}
+.body{
+    height: 764px;
+    background-color: #f1e4e6;
+    
+}
+.body .general_body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.body .general_body .general_text{
+    display: flex;
+    gap: 16px;
+    margin-left: 64px;
+}
+.body .general_body .general_text .color_text{
+    display: flex;
+    gap: 9px;
+}
+.body .general_body .general_text .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.body .general_body .general_text .text h5{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+.body .general_body .general_text .text h1{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.body .general_body .general_text .text p{
+    color: #b078a4;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.sections .string{
+    padding-top: 60px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.sections .solo{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.collection .collection_text{
+    padding-top: 96px;
+    gap: 6px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.collection .collection_text h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_text h2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9f9f9f;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu{
+    display: grid;
+  
+    grid-template-columns: repeat(3 , 360px);
+    grid-template-rows: max-content;
+    gap: 30px;
+    justify-content: center;
+}
+.collection .collection_menu .blok1 .blok1_text{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 16px;
+}
+.collection .collection_menu .blok1 .blok1_text h1{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok1 .blok1_text h2{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok1 .blok1_text h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.collection .collection_menu .blok2 .blok2_text{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 16px;
+}
+.collection .collection_menu .blok2 .blok2_img{
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #f7e4e2;
+ 
+}
+.collection .collection_menu .blok2 .blok2_img img {
+    height: 400px;
+}
+.collection .collection_menu .blok2 .blok2_text h1{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok2 .blok2_text h2{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok2 .blok2_text h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok3 .blok3_text{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 16px;
+}
+.collection .collection_menu .blok3 .blok3_text h1{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok3 .blok3_text h2{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok3 .blok3_text h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok4 .blok4_text{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 16px;
+}
+.collection .collection_menu .blok4 .blok4_text h1{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok4 .blok4_text h2{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok4 .blok4_text h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok5 .blok5_text{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 16px;
+}
+.collection .collection_menu .blok5 .blok5_text h1{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok5 .blok5_text h2{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok5 .blok5_text h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok6 .blok6_text{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 16px;
+}
+.collection .collection_menu .blok6 .blok6_text h1{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok6 .blok6_text h2{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.collection .collection_menu .blok6 .blok6_text h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.collection .bot_button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 60px;
+}
+.collection .bot_button .button{
+    border: 1px solid #f79ea9;
+    height: 48px;
+    width: 212px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection .bot_button .button h1{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #f79ea9;
+}
