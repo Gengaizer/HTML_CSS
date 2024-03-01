@@ -457,3 +457,112 @@ header {
 
     }
 }
+
+@media (max-width:375px) {
+    .center {
+        padding-left: calc(50% - 188px);
+        padding-right: calc(50% - 188px);
+    }
+
+    header {
+
+        height: 74px;
+    }
+
+    .header .header_menu .menu .img_profil {
+
+        display: none;
+
+
+    }
+
+    .header .header_menu .menu .img_buy {
+
+        display: none;
+
+
+    }
+
+    .body .general_body .general_img .general_img_man {
+        height: 368px;
+        width: 386px;
+        min-height: 368px;
+        min-width: 386px;
+        display: none;
+
+    }
+
+    .body {
+
+
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .body .general_body .general_text .text h5 {
+        font-size: 38px;
+        font-weight: 900;
+
+    }
+
+    .body .general_body .general_text .text h1 {
+        font-size: 20px;
+
+    }
+
+    .body .general_body .general_text .text p {
+        font-size: 20px;
+
+    }
+
+    .body .general_body .general_text {
+        display: flex;
+        gap: 16px;
+        margin-left: 64px;
+        align-items: center;
+
+    }
+
+    .body .general_body .general_text img {
+
+        height: 61px;
+        width: 12px;
+
+    }
+
+    .sections .string {
+
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sections .string .string_img {
+        width: 343px;
+        height: 248px;
+        min-width: 343px;
+        min-height: 248px;
+    }
+
+    .sections .solo .solo_img {
+        width: 343.26px;
+        height: 111px;
+        min-width: 343.26px;
+        min-height: 111px;
+    }
+    .collection .collection_menu {
+        display: grid;
+
+        grid-template-columns: repeat(1, 360px);
+
+        gap: 16px;
+
+    }
+
+}
