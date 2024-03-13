@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
 
@@ -77,13 +77,13 @@ header {
     justify-content: center;
 }
 
-.body .general_body .general_text .text h5 {
+.body .general_body .general_text .text h3 {
     font-size: 48px;
     font-weight: 900;
     font-family: 'Lato', sans-serif;
 }
 
-.body .general_body .general_text .text h1 {
+.body .general_body .general_text .text h2 {
     font-size: 32px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
@@ -122,13 +122,13 @@ header {
 
 }
 
-.collection .collection_text h1 {
+.collection .collection_text h2 {
     font-size: 30px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
 }
 
-.collection .collection_text h2 {
+.collection .collection_text h3 {
     font-size: 14px;
     font-weight: 400;
     color: #9f9f9f;
@@ -153,7 +153,7 @@ header {
     gap: 16px;
 }
 
-.collection .collection_menu .blok1 .blok1_text h1 {
+.collection .collection_menu .blok1 .blok1_text h2 {
     font-size: 13px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
@@ -194,7 +194,7 @@ header {
     height: 400px;
 }
 
-.collection .collection_menu .blok2 .blok2_text h1 {
+.collection .collection_menu .blok2 .blok2_text h2 {
     font-size: 13px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
@@ -221,7 +221,7 @@ header {
     gap: 16px;
 }
 
-.collection .collection_menu .blok3 .blok3_text h1 {
+.collection .collection_menu .blok3 .blok3_text h2 {
     font-size: 13px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
@@ -248,7 +248,7 @@ header {
     gap: 16px;
 }
 
-.collection .collection_menu .blok4 .blok4_text h1 {
+.collection .collection_menu .blok4 .blok4_text h2 {
     font-size: 13px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
@@ -275,7 +275,7 @@ header {
     gap: 16px;
 }
 
-.collection .collection_menu .blok5 .blok5_text h1 {
+.collection .collection_menu .blok5 .blok5_text h2 {
     font-size: 13px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
@@ -302,7 +302,7 @@ header {
     gap: 16px;
 }
 
-.collection .collection_menu .blok6 .blok6_text h1 {
+.collection .collection_menu .blok6 .blok6_text h2 {
     font-size: 13px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
@@ -340,7 +340,7 @@ header {
     align-items: center;
 }
 
-.collection .bot_button .button h1 {
+.collection .bot_button .button h2 {
     font-size: 16px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
@@ -374,7 +374,7 @@ header {
 
 }
 
-.offers .left h1 {
+.offers .left h2 {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -406,7 +406,7 @@ header {
 
 }
 
-.offers .central h1 {
+.offers .central h2 {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -439,7 +439,7 @@ header {
 
 }
 
-.offers .right h1 {
+.offers .right h2 {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -464,7 +464,7 @@ header {
     background-image: url(img/background.png);
 }
 
-.futer h1 {
+.futer h2 {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -532,6 +532,9 @@ header {
     border-bottom-right-radius: 30px;
     font-size: 14px;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     font-family: 'Lato', sans-serif;
 }
@@ -573,7 +576,7 @@ header {
 
 }
 
-.over_futer h1 {
+.over_futer h2 {
     font-size: 16px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
@@ -645,7 +648,7 @@ header {
 
     }
 
-    .body .general_body .general_text .text h1 {
+    .body .general_body .general_text .text h2 {
         font-size: 24px;
 
     }
@@ -724,7 +727,7 @@ header {
         margin-top: 24px;
         margin-right: 32px;
     }
-    .over_futer h1 {
+    .over_futer h2 {
         font-size: 16px;
         font-weight: 400;
         font-family: 'Lato', sans-serif;
@@ -786,7 +789,7 @@ header {
 
     }
 
-    .body .general_body .general_text .text h1 {
+    .body .general_body .general_text .text h2 {
         font-size: 20px;
 
     }
@@ -857,7 +860,7 @@ header {
             flex-direction: row;
         
     }
-    .over_futer h1 {
+    .over_futer h2 {
         font-size: 16px;
         font-weight: 400;
         font-family: 'Lato', sans-serif;
